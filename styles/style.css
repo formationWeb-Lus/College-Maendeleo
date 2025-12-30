@@ -335,3 +335,28 @@ footer {
   .contact-hero iframe { height: 280px; }
 }
 
+
+
+@media (min-width: 769px) {
+  .nav-menu {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: auto;
+    background: none;
+    padding: 0;
+  }
+
+  .menu-toggle {
+    display: none; /* hamburger caché sur desktop */
+  }
+
+  .menu-close {
+    display: none; /* bouton fermer inutile */
+  }
+}
+
+
